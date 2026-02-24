@@ -1,0 +1,25 @@
+ Antigamente os dados eram armazenados em fichas, dentro de pastas e, posteriormente, dentro de armários. Materiais físicos. Contudo, com o advento da tecnologia, armazernar digitalmente tornou-se uma realidade mais prática e funcional.
+ Há algumas semelhanças importantes para guardar:
+ficha = registro
+pasta = tabela
+armário = arquivos
+
+BANCO DE DADOS:
+- base de dados (os dados itself)
+- sistema gerenciador (SGBD ou DMS, em inglês)
+- linguagem de exploração
+- programas adicionais
+
+Nós vamos aprender o modelo relacional de armazenamento de dados.
+
+Bancos de dados free:
+- MySQL
+- MariaDB
+- Firebird
+- PostgreSQL
+
+Bancos de dados pagos:
+- Oracle
+- DB2 - da IBM
+- dBASE
+- Microsoft SQL Server
