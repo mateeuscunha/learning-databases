@@ -1,0 +1,20 @@
+ Tipos primitivos SQL:
+
+Numérico: 
+
+- inteiro -- TinyInt, SmallInt, Int, MediumInt, BigInt
+- real -- Decimal, Float, Double, Real
+- lógico -- Bit, Bolean
+
+Data/tempo:
+- Data/tempo -- Date, DateTime, TimeStamp, Time, Year
+
+Literal:
+
+- caractere -- Char, VarChar
+- texto -- TinyText, Text, MediumText, LongText 
+- binário -- TinyBlob, Blob, MediumBlob, LongBlob
+- coleção -- Enum, Set
+
+Espacial:
+- Espacial -- Geometry, Point, Polygon, MultiPolygon

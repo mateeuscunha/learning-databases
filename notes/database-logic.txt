@@ -1,0 +1,5 @@
+> == contém
+
+Banco de dados > tabelas > registros (são compostos por campos)
+
+Navio > conteiners > coisas com características semelhantes
