@@ -1,0 +1,6 @@
+ MySQL languages:
+- DDL: linguagem de definição
+- DML: linguagem de manipulação
+- DQL: linguagem de solicitações
+- DCL: linguagem de controle
+- DTL: linguagem de transações (durabilidade, isolamento, consistência, atomicidade)
