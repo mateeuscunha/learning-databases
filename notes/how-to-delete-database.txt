@@ -1,0 +1,8 @@
+ To delete a database: 
+drop database cadastro;
+
+constraints == parametro
+
+constraints = not null == required
+
+peso decimal(5,2), == existem 5 casas no total, e dessas cinco, as que vão ocupar espaço depois da vírgula são duas. 
