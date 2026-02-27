@@ -1,0 +1,6 @@
+Comandos DDL - data definition language:
+- create database
+- create table
+
+Comandos DML - data manipulation language:
+- insert into
