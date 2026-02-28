@@ -5,3 +5,11 @@ carga int unsigned,
 totaulas int,
 ano year default '2026'
 ) default charset = utf8mb4;
+
+alter table cursos
+add column `idcurso` int first;
+
+alter table cursos
+add primary key (idcurso); 
+
+desc cursos;
