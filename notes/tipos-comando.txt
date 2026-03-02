@@ -1,6 +1,12 @@
 Comandos DDL - data definition language:
 - create database
 - create table
+- alter table
+- drop table
+
 
 Comandos DML - data manipulation language:
 - insert into
+- update
+- delete
+- truncate
