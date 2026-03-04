@@ -10,3 +10,6 @@ Comandos DML - data manipulation language:
 - update
 - delete
 - truncate
+
+Comandos DQL - data query language:
+- select
