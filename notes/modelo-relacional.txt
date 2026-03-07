@@ -1,0 +1,18 @@
+No modelo relacional, duas ou mais entidades(containers) podem se relacionar entre si. O modelo relacional binário, que é quando duas entidades se relacionam é chamado 'diagrama entidade-relacionamento' ou, simplesmente, 'DER'. Por exemplo, entre gafanhotos e cursos, existe uma relação que é: gafanhoto assiste curso e, também, curso é assistido por gafanhoto.
+
+Vale destacar o conceito de cardinalidade. Cardinalidade múltipla: um gafanhoto pode assistir 'n' cursos, assim como cada curso pode ser assistido por 'n' gafanhotos.
+Nesse caso, que é 'n' para 'n', a classificação é: muitos-para-muitos.
+
+Outro exemplo: 'Marido' - "Casa com" - 'Esposa'
+Cardinalidade simples, nesse caso. Cada marido se casa com uma esposa e cada esposa 'é casada por um marido'. Além disso, a classificação é: um-para-um.
+
+Mais um exemplo: 'Funcionário' - "Cuida de" - 'Dependente'
+Cada funcionário pode ter um, mais de um dependente, ou nenhum. Cada dependente só pode ser cuidado de apenas um funcionário.
+Logo, cada funcionário pode ter 'n' dependentes e cada dependente só pode ter 1 funcionário.
+Classificação: um-para-muitos.
+
+MAS COMO FAZER ESSA RELAÇÃO, NA PRÁTICA?
+Na prática, relacionamos duas entidades, simplesmente mandando a chave primária de uma para outro - que virará uma chave estrangeira. Vejamos como deve ser feito em cada classificação:
+- um-para-um: pega a chave do dominado e manda pro dominante.
+- um-para-muitos: pega a chave do lado 'um' e joga pro lado 'muitos' como chave estrangeira.
+- muitos-para-muitos: para esse tipo, o relacionamento vira uma entidade. Ao virar uma entidade, ficamos com três, e temos dois relacionamentos (1 com 2 e 2 com 3). Esses relacionamentos são de um-para-muitos, sendo assim, é só aplicar a regra que sabemos para esse tipo de classificação. Ex: 'Cliente' - "Compra" - 'Produto'. O relacionamento "Compra" se torna uma entidade com suas próprias características, como: id-compra, data, forma-pgto e etc. Sendo assim, temos dois relacionamentos entre as entidades originais e a entidade que surgiu. Esses dois relacionamentos se classificam como um-para-muitos. Aí fica fácil, é só jogar do lado 'um' (que nesse caso são 'cliente' e 'produtos') para o lado 'muitos' (que nesse caso é a entidade compra).
